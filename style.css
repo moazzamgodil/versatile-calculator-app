@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+
+.main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: block;
+    background: linear-gradient(to left, rgba(234,237,239,1) 0%, rgba(235,235,235,1) 100%);
+    width: 400px;
+    box-shadow: 0px 2px 20px grey;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    color: white;
+    line-height: 50%;
+}
+
+.display {
+    margin: 5px 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.output {
+    width: 100%;
+    font-size: 2em;
+    line-height: 0%;
+    margin: 15px 0;
+    text-align: right;
+    height: 1px;
+}
+
+.history {
+    width: 100%;
+    font-size: 1.5em;
+    line-height: 0%;
+    margin: 5px 0;
+    text-align: right;
+    color: grey;
+    padding: 5px 0;
+    height: 1px;
+}
+
+.buttons {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+td.w25 {
+    
+    width: 25%;
+}
+
+td.w50 {
+    width: 50%;
+}
+
+td.w75 {
+    width: 75%;
+}
+
+.btn {
+    width: 100%;
+    font-size: 1.5rem;
+    height: 70px;
+    background: rgb(189, 189, 189);
+    border-style: solid;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.btn:active {
+    background: rgb(204, 204, 204);
+    font-size: 1.2rem;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    height: 1px;
+    width: 1px;
+    background-color: linear-gradient(to left, rgba(234,237,239,1) 0%, rgba(235,235,235,1) 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-weight: 600;
+    font-size: 18px;
+    color: gray;
+}
